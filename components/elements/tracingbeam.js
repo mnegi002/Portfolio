@@ -167,7 +167,7 @@ const dummyContent = [
           Tech Stack: <br />
           Developed using React to ensure a dynamic and interactive user
           experience. The game logic is implemented in a modular and
-          maintainable way, showcasing React's capability for handling state and
+          maintainable way, showcasing React&apos;s capability for handling state and
           rendering updates.
         </p>
         <p className="m-5">
@@ -217,7 +217,7 @@ const dummyContent = [
         <p className="m-5">
           Project Overview: <br />
           The Amazon Clone is a web application designed to replicate the core
-          features of Amazon's online shopping platform. It offers a
+          features of Amazon&apos;s online shopping platform. It offers a
           user-friendly interface for browsing products, adding items to the
           cart, and managing orders.
         </p>

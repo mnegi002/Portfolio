@@ -24,7 +24,7 @@ export function AuroraBackgroundDemo() {
           className="w-[95vw] flex flex-col gap-3 items-center justify-center  overflow-hidden"
         >
           <div className="text-3xl tracking-wide  md:text-5xl font-bold dark:text-white text-center">
-            Hey, I'm Mayank Negi, <br />
+            Hey, I&apos;m Mayank Negi, <br />
             a <FlipWords words={words} />
           </div>
           <div className="font-extralight  text-base md:text-2xl dark:text-neutral-200 py-4">
