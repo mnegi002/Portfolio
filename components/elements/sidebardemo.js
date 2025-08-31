@@ -84,7 +84,7 @@ export const Logo = () => {
     >
       <Image
         src="/images/logo.png"
-        className="h-5 w-5 rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0"
+        className="h-5 w-5 bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0"
         width={50}
         height={50}
         alt="Logo"
@@ -108,7 +108,7 @@ export const LogoIcon = () => {
     >
       <Image
         src="/images/logo.png"
-        className="h-5 w-5 rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0"
+        className="h-5 w-5 bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0"
         width={50}
         height={50}
         alt="Logo Icon"

@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className=" text-white pl-20  shadow-xl shadow-white-500  py-10 px-6">
-      <div className="max-w-7xl px-10 w-[90%] mx-auto flex flex-col md:flex-row justify-between items-start gap-10">
+    <footer className=" text-white pl-20  shadow-2xl shadow-white-100 border-t py-10 px-6">
+      <div className="max-w-7xl px-10 w-[80%] mx-auto flex flex-col md:flex-row justify-between items-start gap-10">
         {/* Left Panel */}
         <div className="space-y-4">
           <div className="flex items-center gap-3">
@@ -13,7 +13,7 @@ const Footer = () => {
             <div className=" flex items-center justify-center text-gray-900 font-bold">
               <Image
                 src="/images/logo.png"
-                className=" rounded-br-xl  rounded-tr-sm rounded-tl-xl rounded-bl-sm flex-shrink-0"
+                className=" rounded-br-xl bg-white rounded-tr-sm rounded-tl-xl rounded-bl-sm flex-shrink-0"
                 width={50}
                 height={50}
                 alt="Logo"
@@ -21,11 +21,11 @@ const Footer = () => {
             </div>
             <h1 className="text-2xl font-semibold">CoderRoom</h1>
           </div>
-          <p className="text-gray-400">Turning ideas into Reality</p>
-          <Link href="/contact">
-            <button className="mt-2 px-5 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-sm font-medium transition">
-              Contact Us
-            </button>
+          <p className="text-gray-400 text-center mb-4">Turning ideas into Reality</p>
+          <Link href="/contact" >
+             <button className="inline-flex h-12 animate-shimmer mt-4 w-full items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+          Contact Us
+        </button>
           </Link>
         </div>
 
