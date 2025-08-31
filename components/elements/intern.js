@@ -13,7 +13,7 @@ export default function Internship() {
         <div className=" w-[90%]">
           <h2 className="text-2xl font-semibold mb-2">Colibyt Technologies</h2>
           <p className="text-sm md:text-xl font-medium mb-2">
-            Full-Stack Developer | August '24 - Present
+            Full-Stack Developer | August &apos;24 - Present
           </p>
           <ul className="list-disc list-outside md:ml-4">
             <li>
@@ -38,7 +38,7 @@ export default function Internship() {
         <div className=" w-[90%]">
           <h2 className="text-2xl font-semibold mb-2">Handlebuzz</h2>
           <p className=" text-sm md:text-xl font-medium mb-2">
-            Full-Stack Developer | July '23 - July '24
+            Full-Stack Developer | July &apos;23 - July &apos;24
           </p>
           <ul className="list-disc list-outside md:ml-4">
             <li>
@@ -51,7 +51,7 @@ export default function Internship() {
             </li>
             <li>
               The UI/UX is enhanced using specific React functionalities (e.g.,
-              hooks like useState, useC ontext, useEffect etc).
+              hooks like useState, useContext, useEffect etc).
             </li>
             <li>
               Efficient backend and database using MongoDB and MySQL and Node.js runtime environment.
