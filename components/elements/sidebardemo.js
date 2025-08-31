@@ -83,7 +83,7 @@ export const Logo = () => {
       className="font-normal flex space-x-2 items-center text-sm text-black py-1 relative z-20"
     >
       <Image
-        src="/images/logo.jpg"
+        src="/images/logo.png"
         className="h-5 w-5 rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0"
         width={50}
         height={50}
@@ -94,7 +94,7 @@ export const Logo = () => {
         animate={{ opacity: 1 }}
         className="font-medium text-black dark:text-white whitespace-pre"
       >
-        Portfolio
+        CoderRoom
       </motion.span>
     </Link>
   );
@@ -107,7 +107,7 @@ export const LogoIcon = () => {
       className="font-normal flex space-x-2 items-center text-sm text-black py-1 relative z-20"
     >
       <Image
-        src="/images/logo.jpg"
+        src="/images/logo.png"
         className="h-5 w-5 rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0"
         width={50}
         height={50}

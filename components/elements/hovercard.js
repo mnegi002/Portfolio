@@ -59,7 +59,7 @@ export const projects = [
     link: "#",
   },
   {
-    title: "BootStrap/Tailwind",
+    title: "Tailwind",
     description:
       "CSS frameworks that provide pre-designed components and utilities for rapid, responsive web development.",
     link: "#",
@@ -70,4 +70,17 @@ export const projects = [
       "A library for enabling real-time, bidirectional communication between clients and servers over WebSockets.",
     link: "#",
   },
+  {
+    title: "Payment Gateways",
+    description:
+      "Payment integration includes Stripe, RazorPay and Crypto Payments using Binance Chain.",
+    link: "#",
+  },
+  {
+    title: "Git",
+    description:
+      "Managing code using git tool and uploading the code on Github for better collaboration and authenticity",
+    link: "#",
+  },
+ 
 ];

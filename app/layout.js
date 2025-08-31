@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { SidebarDemo } from "@/components/elements/sidebardemo";
+import Footer from "@/components/elements/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +16,11 @@ export default function RootLayout({ children }) {
           <div className="child flex-1 overflow-x-hidden">
             {children}
           </div>
+          
         </main>
+        <div className="">
+            <Footer/>
+          </div>
       </body>
     </html>
   );
