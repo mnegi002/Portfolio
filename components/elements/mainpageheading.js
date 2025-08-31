@@ -12,7 +12,7 @@ export function AuroraBackgroundDemo() {
   const words = ["Software Developer", "Full Stack Developer", "Web Developer"];
 
   return (
-    <div className="h-screen ">
+    <div className="h-screen w-full">
       <AuroraBackground>
         <motion.div
           initial={{ opacity: 0.0, y: 40 }}
@@ -22,10 +22,10 @@ export function AuroraBackgroundDemo() {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="  flex gap-3 items-center justify-center  overflow-hidden"
+          className="  flex md:flex-row flex-col-reverse gap-3 items-center justify-center  overflow-hidden"
         >
-          <div className="flex flex-col items-center">
-            <div className="text-3xl  tracking-wide  md:text-5xl font-bold dark:text-white text-center">
+          <div className="flex  flex-col items-center">
+            <div className="text-2xl  tracking-wide  md:text-5xl font-bold dark:text-white text-center">
               Hey, I&apos;m Mayank Negi, <br />
               a <FlipWords words={words} />
             </div>

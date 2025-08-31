@@ -3,19 +3,19 @@
 export default function Internship() {
   return (
     <>
-      <div className="p-10   space-y-10 flex flex-col items-center ">
+      <div className="md:p-10  space-y-10 flex flex-col items-center ">
         <div>
-          <h1 className="text-5xl text-center p-5 font-bold mb-6">
+          <h1 className="text-4xl md:text-5xl text-center p-5 font-bold  md:mb-6">
             Experience
           </h1>
         </div>
 
         <div className=" w-[90%]">
           <h2 className="text-2xl font-semibold mb-2">Colibyt Technologies</h2>
-          <p className="text-xl font-medium mb-2">
+          <p className="text-sm md:text-xl font-medium mb-2">
             Full-Stack Developer | August '24 - Present
           </p>
-          <ul className="list-disc list-inside ml-4">
+          <ul className="list-disc list-outside md:ml-4">
             <li>
               Roles and responsibilities include developing a BaaS (Intelchain)
               and its community . Made it using
@@ -30,17 +30,17 @@ export default function Internship() {
             <li>
               Also used Web Sockets for real-time data interpretation and build
               responsive and user-friendly interfaces with React and Next.js and
-              added Crypto Payments
+              added Crypto Payments.
             </li>
           </ul>
         </div>
 
         <div className=" w-[90%]">
           <h2 className="text-2xl font-semibold mb-2">Handlebuzz</h2>
-          <p className="text-xl font-medium mb-2">
+          <p className=" text-sm md:text-xl font-medium mb-2">
             Full-Stack Developer | July '23 - July '24
           </p>
-          <ul className="list-disc list-inside ml-4">
+          <ul className="list-disc list-outside md:ml-4">
             <li>
               Roles & responsibilities include building engaging projects using
               modern technologies like

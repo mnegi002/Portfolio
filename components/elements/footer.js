@@ -4,11 +4,11 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className=" text-white pl-20  shadow-2xl shadow-white-100 border-t py-10 px-6">
-      <div className="max-w-7xl px-10 w-[80%] mx-auto flex flex-col md:flex-row justify-between items-start gap-10">
+    <footer className=" text-white md:pl-20  shadow-2xl  shadow-white-100 border-t py-10 px-6">
+      <div className="max-w-7xl px-10 w-[100%] md:w-[80%] mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-10">
         {/* Left Panel */}
-        <div className="space-y-4">
-          <div className="flex items-center gap-3">
+        <div className="space-y-4 flex flex-col   items-center justify-center ">
+          <div className="flex items-center  gap-3">
             {/* Logo Placeholder */}
             <div className=" flex items-center justify-center text-gray-900 font-bold">
               <Image
@@ -30,8 +30,8 @@ const Footer = () => {
         </div>
 
         {/* Right Panel */}
-        <div className="space-y-3 ">
-          <h2 className="text-xl font-semibold">For Enquiry</h2>
+        <div className="space-y-3 flex flex-col  ">
+          <h2 className="text-xl font-semibold text-center md:text-left">For Enquiry</h2>
           <p className="text-gray-300">📞 9810694357</p>
           <p className="text-gray-300">📧 itsmemayank02@gmail.com</p>
         </div>

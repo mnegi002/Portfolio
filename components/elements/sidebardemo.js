@@ -42,7 +42,7 @@ export function SidebarDemo() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 z-10 h-screen bg-gray-100 dark:bg-neutral-800 border-r">
+    <div className="fixed top-0 left-0 z-10 h-screen bg-transparent md:bg-neutral-800 md:border-r">
       <Sidebar open={open} setOpen={setOpen}>
         <SidebarBody className="justify-between gap-10">
           <div className="flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
